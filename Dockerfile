@@ -1,2 +1,2 @@
-FROM nginx
-COPY . /user/share/nginx/html/
+FROM httpd
+COPY . /var/www/html/
